@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.liLista {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+  gap: 20px;
+
+  margin: 15px 0px;
+  border-left: 5px solid #03b898;
+}
+
+.liListaDespesa {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+  gap: 20px;
+
+  margin: 15px 0px;
+  border-left: 5px solid #fab0b6;
+}
+
+.divInfoConta {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonRemove {
+  background: #e9ecef;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.divInfoConta h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+.divInfoConta p {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+
+.lilista p {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: #343a40;
+}
+
+.buttonsFiltro {
+  width: 84px;
+  height: 40px;
+
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+
+  margin: 5px 5px;
+}
+
+.divFiltros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divH2 h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}

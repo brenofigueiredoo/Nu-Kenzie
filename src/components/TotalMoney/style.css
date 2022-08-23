@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+.valorTotal {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+
+  height: 90px;
+  padding: 10px;
+  margin: 15px 0px;
+}
+
+.valorTotal p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #212529;
+  margin: 10px 0px;
+}
+
+.h2Total {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.valorTotal section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h2ValorTotal {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  color: #fd377e;
+}
