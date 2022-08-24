@@ -20,5 +20,5 @@ Nu Kenzie tem como objetivo o controle de finanças, sendo possível fazer lanç
 #### Entre no link abaixo
 
 ```
-https://react-entrega-s1-nu-kenzie-brenofig-git-5672a5-brenofigueiredoo.vercel.app
+https://nu-kenzie-five-rouge.vercel.app/
 ```
