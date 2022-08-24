@@ -1,15 +1,19 @@
 ## Nu Kenzie
 
-Uma aplicação web para listar transações financeiras de entrada e saída, que deve permitir a listagem dessas transações através dos campos de pesquisar lá listados.
+Nu Kenzie tem como objetivo o controle de finanças, sendo possível fazer lançamentos de entras e saídas de qualquer valor, obtendo o valor total instantaneamente, sendo possível também filtrar entradas e despesas.
 
 ## Aplicações
 - [X] Listar transações financeiras de entrada e saída;
-- [X] Filtro entre os tipos de transações;
+- [X] Adição e remoção de transações;
+- [X] Mobile First;
+- [X] Calculo do valor total;
+- [X] Filtro tanto por entrada e despesa.
 
 ## Conceitos estudados
 
 - React;
 - Organizado com Context.
+- Mobile First
 
 ## Como acessar
 
