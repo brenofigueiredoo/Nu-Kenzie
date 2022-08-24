@@ -1,22 +1,52 @@
-import { createContext } from "react";
+import { createContext, ReactNode } from "react";
 import { useState } from "react";
 
-export const UserContext = createContext();
+interface IContextProps {
+  children: ReactNode;
+}
 
-export const ContextProvider = ({ children }) => {
-  const [listTransactions, setListTransactions] = useState([
-    { description: "Salário recebido", type: "Entrada", value: 2500 },
-    { description: "Conta de luz", type: "Despesa", value: -150 },
-  ]);
+interface IListTransactions {
+  description: string;
+  type: string;
+  value: number;
+}
 
-  const [allList, setAllList] = useState(listTransactions);
+interface IUseContext {
+  criarContas: (e: any) => void;
+  setDescription: React.Dispatch<React.SetStateAction<string>>;
+  setValue: React.Dispatch<React.SetStateAction<number>>;
+  setType: React.Dispatch<React.SetStateAction<string>>;
+  listTransactions: IListTransactions[];
+  setListTransactions: React.Dispatch<
+    React.SetStateAction<IListTransactions[]>
+  >;
+  allList: IListTransactions[];
+  setAllList: React.Dispatch<React.SetStateAction<IListTransactions[]>>;
+  removeItem: (item: any) => void;
+  listarTodos: () => void;
+  listarEntradas: () => void;
+  listarDespesas: () => void;
+  listarPreco: () => void;
+}
+
+export const UserContext = createContext<IUseContext>({} as IUseContext);
+
+export const ContextProvider = ({ children }: IContextProps) => {
+  const [listTransactions, setListTransactions] = useState<IListTransactions[]>(
+    [
+      { description: "Salário recebido", type: "Entrada", value: 2500 },
+      { description: "Conta de luz", type: "Despesa", value: -150 },
+    ]
+  );
+
+  const [allList, setAllList] = useState<IListTransactions[]>(listTransactions);
 
   //Criar
-  const [description, setDescription] = useState();
-  const [value, setValue] = useState();
-  const [type, setType] = useState();
+  const [description, setDescription] = useState<string>("");
+  const [value, setValue] = useState<number>(0);
+  const [type, setType] = useState<string>("");
 
-  function criarContas(e) {
+  function criarContas(e: any) {
     e.preventDefault();
 
     const objResultDespesa = {
@@ -45,7 +75,7 @@ export const ContextProvider = ({ children }) => {
     }
   }
 
-  function removeItem(item) {
+  function removeItem(item: any) {
     const indiceEncontrado = allList.filter((elem, index) => index !== item);
     setAllList(indiceEncontrado);
     setListTransactions(indiceEncontrado);

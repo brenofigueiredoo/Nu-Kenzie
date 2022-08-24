@@ -28,10 +28,15 @@
 }
 
 .buttonRemove {
-  background: #e9ecef;
+  background: #f8f9fa;
   border-radius: 3px;
   border: none;
   cursor: pointer;
+}
+
+.buttonRemove:hover {
+  background-color: black;
+  color: #f8f9fa;
 }
 
 .divInfoConta h2 {
@@ -64,6 +69,11 @@
   cursor: pointer;
 
   margin: 5px 5px;
+}
+
+.buttonsFiltro:hover {
+  background-color: #fd377e;
+  color: white;
 }
 
 .divFiltros {

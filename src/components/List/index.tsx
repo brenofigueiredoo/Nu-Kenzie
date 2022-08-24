@@ -15,7 +15,6 @@ export default function List() {
         {listTransactions.map((elem, index) => (
           <li
             className={elem.type === "Entrada" ? "liLista" : "liListaDespesa"}
-            elem={elem}
             key={index}
           >
             <div className="divInfoConta">

@@ -36,7 +36,9 @@ export default function Form() {
             name=""
             id=""
           >
-            <option value=""></option>
+            <option value="" selected disabled hidden>
+              Escolha um tipo
+            </option>
             <option value="Entrada">Entrada</option>
             <option value="Despesa">Despesa</option>
           </select>

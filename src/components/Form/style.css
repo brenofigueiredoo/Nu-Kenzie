@@ -32,6 +32,10 @@
   cursor: pointer;
 }
 
+.buttonInserir:hover {
+  filter: brightness(0.9);
+}
+
 .divButtonInserir {
   display: flex;
   justify-content: center;
@@ -61,7 +65,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 16px;
+  padding: 0px 5px;
 
   width: 150px;
   height: 40px;

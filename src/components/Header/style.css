@@ -36,4 +36,6 @@
 
 .buttonHeader:hover {
   filter: brightness(0.9);
+  background-color: #fd377e;
+  color: white;
 }

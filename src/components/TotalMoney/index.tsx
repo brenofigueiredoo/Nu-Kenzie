@@ -8,7 +8,7 @@ export default function TotalMoney() {
     <div className="valorTotal">
       <section>
         <h2 className="h2Total">Valor total:</h2>
-        <h2 className="h2ValorTotal">R${listarPreco()},00</h2>
+        <h2 className="h2ValorTotal">{`R$${listarPreco()},00`}</h2>
       </section>
       <p>O valor se refere ao saldo</p>
     </div>
