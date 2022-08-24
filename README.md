@@ -11,7 +11,7 @@ Nu Kenzie tem como objetivo o controle de finanças, sendo possível fazer lanç
 
 ## Conceitos estudados
 
-- React;
+- Typescript com React;
 - Organizado com Context.
 - Mobile First
 
