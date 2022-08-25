@@ -20,5 +20,5 @@ Nu Kenzie tem como objetivo o controle de finanças, sendo possível fazer lanç
 #### Entre no link abaixo
 
 ```
-https://nu-kenzie-five-rouge.vercel.app/
+nu-kenzie-five-rouge.vercel.app
 ```
