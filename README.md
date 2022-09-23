@@ -1,6 +1,6 @@
 ## Nu Kenzie
 
-Nu Kenzie tem como objetivo o controle de finanças, sendo possível fazer lançamentos de entras e saídas de qualquer valor, obtendo o valor total instantaneamente, sendo possível também filtrar entradas e despesas.
+Nu Kenzie tem como objetivo o controle de finanças, sendo possível fazer lançamentos de entradas e saídas de qualquer valor, obtendo o valor total instantaneamente, sendo possível também filtrar entradas e despesas.
 
 ## Aplicações
 - [X] Listar transações financeiras de entrada e saída;
