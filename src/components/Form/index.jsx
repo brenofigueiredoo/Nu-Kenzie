@@ -9,7 +9,7 @@ export default function Form() {
   return (
     <div className="divForm">
       <form onSubmit={criarContas}>
-        <div>
+        <div className="divFormInterior">
           <p>Descrição</p>
           <input
             onChange={(e) => setDescription(e.target.value)}
@@ -36,9 +36,7 @@ export default function Form() {
             name=""
             id=""
           >
-            <option value="" selected disabled hidden>
-              Escolha um tipo
-            </option>
+            <option value=""></option>
             <option value="Entrada">Entrada</option>
             <option value="Despesa">Despesa</option>
           </select>
